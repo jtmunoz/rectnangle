@@ -5,6 +5,11 @@ RECTANGLE::RECTANGLE(){
   WIDTH__ = 0;
 }
 
+RECTANGLE::RECTANGLE(double l, double w){
+  LENGTH__ = l;
+  WIDTH__ = w;
+}
+
 void RECTANGLE::SET_LENGTH(double length){
   LENGTH__ = length;
 }
@@ -19,4 +24,8 @@ double RECTANGLE::GET_LENGTH(){
 
 double RECTANGLE::GET_WIDTH(){
   return WIDTH__;
+}
+
+RECTANGLE::~RECTANGLE() {
+  std::cout << "Destructing" << std::endl;
 }
