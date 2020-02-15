@@ -1,5 +1,10 @@
 #include "rectangle.hpp"
 
+RECTANGLE::RECTANGLE(){
+  LENGTH__ = 0;
+  WIDTH__ = 0;
+}
+
 void RECTANGLE::SET_LENGTH(double length){
   LENGTH__ = length;
 }

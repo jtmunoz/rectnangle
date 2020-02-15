@@ -7,6 +7,9 @@
 int main()  {
   RECTANGLE   myRectangle;
 
-  myRectangle.SET_LENGTH();
-  myRectnagle.SET_WIDTH();
+  myRectangle.SET_LENGTH(6.0);
+  myRectnagle.SET_WIDTH(3.5);
+
+  myRectangle.GET_LENGTH();
+  myRectangle.GET_WIDTH();
 }
