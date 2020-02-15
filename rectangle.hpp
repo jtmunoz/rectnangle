@@ -1,0 +1,11 @@
+class RECTANGLE {
+  PRIVATE:
+    double LENGTH__;
+    double WIDTH__;
+
+  PUBLIC:
+    void SET_LENGTH(double l);
+    void SET_WIDTH(double w);
+    double GET_LENGTH();
+    double GET_WIDTH();
+}
