@@ -1,9 +1,9 @@
 class RECTANGLE {
-  PRIVATE:
+  private:
     double LENGTH__;
     double WIDTH__;
 
-  PUBLIC:
+  private:
     RECTANGLE();
     RECTANGLE(double l, double w);
     void SET_LENGTH(double l);
